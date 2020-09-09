@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Decentralized Application</title>
+  </head>
+  <body>
+    <h1>A Simple Decentralized Application Running On Ethereum</h1>
+    <table>
+      <th>Candidate</th>
+      <th>Votes</th>
+      <tr>
+        <td>Joe</td>
+        <td id="candidate-1"></td>
+      </tr>
+      <tr>
+        <td>Donald</td>
+        <td id="candidate-2"></td>
+      </tr>
+      <tr>
+        <td>Kanye</td>
+        <td id="candidate-3"></td>
+      </tr>
+    </table>
+    <input type="text" id="candidate"/>
+    <a href="#" onClick="voteForCandidate()">Vote</a>
+  </body>
+  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="./index.js"></script>
+</html>
